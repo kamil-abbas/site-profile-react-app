@@ -10,9 +10,9 @@ export default class Profile extends Component {
     const {fullname, email, address} = this.props;
     return (
       <div className="profile">
-        <h1>Adı: <span>{fullname}</span></h1>
-        <p>Email: <span>{email}</span></p>
-        <p>Ünvan: <span>{address}</span></p>
+        <h1><b>Adı: </b><span>{fullname}</span></h1>
+        <p><b>Email: </b><span>{email}</span></p>
+        <p><b>Ünvan: </b><span>{address}</span></p>
         <PersonalInfo />
       </div>
     );

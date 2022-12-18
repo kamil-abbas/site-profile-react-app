@@ -4,7 +4,7 @@ export default class PersonalInfo extends Component {
   render() {
     return (
       <div>
-        <p>Şəxsi məlumatlar: Şəxsi məlumat daxil edilməyib.</p>
+        <p><b>Şəxsi məlumatlar: </b><span>Şəxsi məlumat daxil edilməyib.</span></p>
       </div>
     )
   }
