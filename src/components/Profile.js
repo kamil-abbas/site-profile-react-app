@@ -7,12 +7,12 @@ import "./Profile.css";
 
 export default class Profile extends Component {
   render() {
-    console.log(this)
+    const {fullname, email, address} = this.props;
     return (
       <div className="profile">
-        <h1>Adı: <span>{this.props.fullname}</span></h1>
-        <p>Email: <span>{this.props.email}</span></p>
-        <p>Ünvan: <span>{this.props.address}</span></p>
+        <h1>Adı: <span>{fullname}</span></h1>
+        <p>Email: <span>{email}</span></p>
+        <p>Ünvan: <span>{address}</span></p>
         <PersonalInfo />
       </div>
     );
